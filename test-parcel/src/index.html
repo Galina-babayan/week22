@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="container">
+        <h1 class="form__label">Добро пожаловать!</h1>
+
+        <section class="form">
+          <h2 class="form__label">
+            Какие породы кошек больше всего интересуют Россиян последнее время?
+          </h2>
+          <div class="graph-container"></div>
+        </section>
+        <section class="form">
+          <h2 class="form__label">Где живет больше всего кошек?</h2>
+          <div class="graph2-container"></div>
+        </section>
+        <section class="form">
+          <h2 class="form__label">Почему люди заводят кошек?</h2>
+          <div class="graph3-container"></div>
+        </section>
+
+        <div id="maincolor" class="form">
+          <form action="#" id="formSecond" class="form__body">
+            <div class="form__item">
+              <h2 class="form__label">Добавить комментарий</h2>
+              <textarea
+                name="message"
+                id="comment"
+                class="form__input"
+              ></textarea>
+            </div>
+            <button id="addComment" class="form__button" type="">
+              Добавить
+            </button>
+            <div id="comments" class="users-comments"></div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
